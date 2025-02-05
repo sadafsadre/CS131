@@ -1,0 +1,14 @@
+6)
+sadaf_sadrearhami@instance-20250127-192337:~/CS131/ws2$ head /proc/meminfo
+MemTotal:         976904 kB
+MemFree:          527808 kB
+MemAvailable:     620588 kB
+Buffers:           10240 kB
+Cached:           195932 kB
+SwapCached:            0 kB
+Active:           103052 kB
+Inactive:         161672 kB
+Active(anon):        876 kB
+Inactive(anon):    66844 kB
+
+
