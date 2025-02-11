@@ -1,0 +1,10 @@
+Most popular pickup locations on January 2nd, 2019
+8555 161.0 - most popular
+8145 132.0 - second popular
+8122 186.0 - third popular
+
+Most popular pickup locations on January 10th, 2019
+13693 237.0 - most popular
+13486 236.0 - second popular
+12922 161.0 - third popular
+
