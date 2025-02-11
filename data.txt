@@ -1,0 +1,5 @@
+
+
+i: insert
+yy: copy the line
+p: paste it`

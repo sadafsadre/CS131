@@ -1,0 +1,75 @@
+    1  pwd
+    2  cd CS131
+    3  ls
+    4  file
+    5  cat
+    6  man
+    7  man man
+    8  cd CS131
+    9  cd CS131
+   10  mkdir ws2
+   11  pwd
+   12  mkdir <ws2>
+   13  mkdir cd ws2
+   14  cd ws2
+   15  pwd
+   16  id
+   17  ls
+   18  grep
+   19  ls /proc 
+   20  ls /proc/meminfo
+   21  cd CS131
+   22  ls
+   23  cat README.md
+   24  cd sample1/
+   25  ls
+   26  vim data.txt
+   27  man sort
+   28  cat data.txt
+   29  mkdir /sample1
+   30  mkdir sample1
+   31  cd sample 1
+   32  cd sample1/
+   33  vim data.txt
+   34  ls >/dev/null
+   35  cat /dev/null
+   36  cat
+   37  cat data.txt
+   38  sort data.txt | uniq
+   39  ls
+   40  cd ..
+   41  ls
+   42  cd ws2
+   43  ls
+   44  cd ..
+   45  cd samlple1
+   46  cd sample1/
+   47  sort data.txt | uniq
+   48  sort data.txt | uniq-c
+   49  sort data.txt | uniq -c
+   50  echo
+   51  echo "this is my readme"
+   52  echo "this is my readme" > README.md
+   53  cd ..
+   54  git log
+   55  ls
+   56  git log --pretty=format:'%h &ad %s' --graph
+   57  vim ~/.gitconfig
+   58  his 2
+   59  cd
+   60  vim ~/.gitconfig
+   61  cd CS131
+   62  git hist
+   63  vim README.md
+   64  git add README.md
+   65  git commit -m "edit README"
+   66  git hist
+   67  git checkout 
+   68  git checkout 4ab0e70
+   69  cat README.md
+   70  git status
+   71  git checkout main
+   72  cd CS131
+   73  cs ws2
+   74  cd ws2
+   75  history > cmd.log

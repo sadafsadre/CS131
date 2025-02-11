@@ -1,0 +1,12 @@
+    1  cd CS131
+    2  mkdir ws2
+    3  cd ws2
+    4  pwd
+    5  id
+    6  ls /proc | grep mem
+    7  ls/proc | grep cpu
+    8  head /proc/meminfo
+    9  head /proc/cpuinfo
+   10  tail /proc/cpuinfo
+   11  cat /proc/cpuinfo
+   12  cat /etc/os-release
