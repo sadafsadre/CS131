@@ -1,16 +1,20 @@
  1 sudo apt install python3-pip -y
  2 pip install gdown
  3 gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
- 4 awk -F',' '$2 ~ /2019-01-02/' 2019-01-h1.csv > jan_2_trips.csv
- 5 cut -d ',' -f 8 jan_2_trips.csv | sort | uniq -c | sort -nr | head -3
- 6 awk -F',' '$2 ~ /2019-01-10/' 2019-01-h1.csv > jan_10_trips.csv
- 7 cut -d ',' -f 8 jan_10_trips.csv | sort | uniq -c | sort -nr | head -3
- 8 cd CS131
- 9 mkdir ws3
-10 cd ws3
-11 vim ws3.txt
-12 git add ws3.txt
-13 git commit -m "add ws3 file"
-14 git push -u origin main
-15 vim cmds.log
-16 history > cmds.log
+ 4 grep '"2019-01-02 ' 2019-01-h1.csv > jan2_data.csv
+ 5 cut -d',' -f8 jan2_data.csv > jan2_ids.txt
+ 6 sort jan2_ids.txt | uniq -c | sort -nr > jan2_sorted.txt
+ 7 head -n 3 jan2_sorted.txt
+ 8 grep '"2019-01-10 ' 2019-01-h1.csv > jan10_data.csv
+ 9 cut -d',' -f8 jan10_data.csv > jan10_ids.txt
+10 sort jan10_ids.txt | uniq -c | sort -nr > jan10_sorted.txt
+11 head -n 3 jan10_sorted.txt
+12 cd CS131
+13 mkdir ws3
+14 cd ws3
+15 vim ws3.txt
+16 git add ws3.txt
+17 git commit -m "add ws3 file"
+18 git push -u origin main
+19 vim cmds.log
+20 history > cmds.log
