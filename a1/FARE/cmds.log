@@ -1,0 +1,23 @@
+ cd CS131
+ mkdir a1
+ cd a1
+ vim ~/.bashrc
+ source ~/.bashrc
+ l
+ w
+ mkdir FARE
+ cd FARE
+ grep ',48.0,161.0,' 2019-01-h1.csv | cut -d',' -f11 > FARE/48-161.txt
+ grep ',142.0,236.0,' 2019-01-h1.csv | cut -d',' -f11 > FARE/142-236.txt
+ sum=$(paste -sd+ FARE/48-161.txt | bc)
+ count=$(wc -l < FARE/48-161.txt)
+ mean=$(echo "scale=2; $sum / $count" | bc)
+ echo "Mean fare for 142-236: $mean"
+ sum=$(paste -sd+ FARE/48-161.txt | bc)
+ count=$(wc -l < FARE/142-236.txt)
+ mean=$(echo "scale=2; $sum / $count" | bc)
+ echo "Mean fare for 142-236: $mean"
+ grep '2019-01-10' 2019-01-h1.csv | cut -d',' -f17 | sort -nr | head -1
+ grep ',3.0,' 2019-01-h1.csv | cut -d',' -f9 | sort | uniq -c | sort -nr | head -10
+ vim a1.txt
+ history > cmds.log

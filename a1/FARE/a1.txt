@@ -1,0 +1,23 @@
+Task 1:
+OUTPUT after using command "l"
+total 8
+
+OUTPUT after using command "w"
+3
+
+Task 2:
+Mean Fare for 48-161: 7.07
+Mean Fare for 142-236: 10.08
+Highest Total Amount Paid on January 10, 2019: 36090.3
+10 most popular dropoff locations:
+9558 236.0
+7897 161.0
+7769 230.0
+7400 237.0
+6721 48.0
+6207 170.0
+6102 142.0
+6099 162.0
+6056 239.0
+5860 141.0
+
