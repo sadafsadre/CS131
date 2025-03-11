@@ -1,7 +1,7 @@
 # Todo: A Simple Command-Line To-Do List
 
 ## What This Command Does
-`todo` is a lightweight command-line tool for managing a to-do list. It allows users to quickly add, remove, and display tasks directly from the terminal.
+`todo` is a  command-line tool for managing a to-do list. It allows users to quickly add, remove, and display tasks directly from the terminal.
 
 ## Why/When This Command is Useful
 - Helps users keep track of tasks without needing a full-fledged task manager.
@@ -84,11 +84,5 @@ Cleared all tasks.
 
 ## License
 This tool is open-source and free to use.
-
----
-### **Presentation Guidelines**
-- Show a quick demo adding, listing, and removing tasks.
-- Explain how the script works step by step.
-- Keep the presentation within 4 minutes.
 
 
