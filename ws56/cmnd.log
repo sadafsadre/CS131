@@ -1,0 +1,15 @@
+# Task 1 sed:
+sed -n '/^2,/p' 2019-01-h1.csv > vendor2.csv
+wc vendor2.csv
+
+sed 's/[:\"-]//g' 2019-01-h1.csv > no-separators.csv
+head -10 no-separators.csv
+
+sed 's/\.[0-9][0-9]*//g' no-separators.csv > no-fractions.csv
+head -10 no-fractions.csv
+
+# Task 2 awk:
+awk -F, 'NR > 1 && $17 >= 10 { count[$14]++ } END { for (tip in count) print tip, count[tip] }' 2019-01-h1.csv >> ws56.txt
+
+awk -F, 'NR > 1 { count[$14]++ } END { for (tip in count) print tip, count[tip] }' 2019-01-h1.csv | sort -k2,2nr | head -20 >> ws56.txt
+
