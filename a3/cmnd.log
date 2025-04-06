@@ -1,0 +1,4 @@
+vim grades.csv
+vim grader.awk
+awk -f grader.awk grades.csv > a3.txt
+cat a3.txt
